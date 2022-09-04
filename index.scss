@@ -1,0 +1,173 @@
+@import "./CSSReset";
+
+// General configure
+html,body{
+    font-family: sans-serif, "SF Pro Text", "Ping Fang TC";
+    line-height: 1.5;
+}
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+}
+
+// Top container configure
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top{
+    padding-top: 40px;
+}
+
+.profileName{
+    font-family: sans-serif,"SF Pro Text";
+    font-size: 80px;
+    line-height: 95px;
+    margin-bottom: 48px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #000;
+}
+
+.profilePic{
+    display: block;
+    margin-bottom: 48px;
+}
+
+.item{
+    margin-bottom: 64px;
+}
+
+.titleGroup{
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.title{
+    display: inline;
+    font-family: sans-serif,"Ping Fang TC";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.titleEng{
+    font-family: sans-serif,"SF Pro Text";
+    color: #A00404;
+    font-size: 24px;
+    font-weight: 600;
+    vertical-align: top;
+    margin-left: 16px;
+}
+
+.hrStyle2{
+    width: 100%;
+    border-top: 1px solid #000000;
+    position: absolute;
+}
+
+.text{
+    font-family: sans-serif,"Ping Fang TC";
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+
+.eduList{
+    .text{
+        margin-bottom: 16px;
+    }
+}
+
+//Skill and footer common configure
+.item.skill, footer{
+    background-color: #415165;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    .container{
+        max-width: 996px;
+    }
+    .titleGroup{
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .title,.titleEng,.text{
+        color: #ffffff;
+    }
+    .hrStyle2{
+        border-color: #ffffff;
+    }
+    .skillList{
+        margin: 0 auto;
+        border-left: 1px solid #ffffff;
+        padding-left: 24px;
+        width: fit-content;
+    }
+    .text{
+        font-family: sans-serif,"SF Pro Text";
+        margin-bottom: 8px;
+        &.last{
+            margin-bottom: 0;
+        }
+    }
+}
+
+// Bottom container configure
+.exp{
+    margin-bottom: 80px;
+}
+
+.expUnit{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.expList{
+    width: 60%;
+    border-left: 1px solid #000000;
+    padding-left: 24px;
+    margin-left: 24px;
+    .noMb{
+        margin-bottom: 0;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+
+// Footer only configure
+footer{
+    .titleGroup{
+        margin-bottom: 32px;
+    }
+}
+
+.contactList{
+    .text{
+        display: block;
+        text-align: center;
+        margin-bottom: 16px;
+        &.web{
+            font-family: sans-serif,"Ping Fang TC";
+        }
+    }
+    a:hover{
+        text-shadow: 3px 3px #000000;
+        font-weight: bold;
+    }
+}
+
+.socialGroup{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.logo.middle{
+    margin: 0 24px;
+}

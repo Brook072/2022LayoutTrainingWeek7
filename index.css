@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, body {
+  font-family: sans-serif, "SF Pro Text", "Ping Fang TC";
+  line-height: 1.5;
+}
+
+img {
+  vertical-align: top;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top {
+  padding-top: 40px;
+}
+
+.profileName {
+  font-family: sans-serif,"SF Pro Text";
+  font-size: 80px;
+  line-height: 95px;
+  margin-bottom: 48px;
+  padding-bottom: 22px;
+  border-bottom: 2px solid #000;
+}
+
+.profilePic {
+  display: block;
+  margin-bottom: 48px;
+}
+
+.item {
+  margin-bottom: 64px;
+}
+
+.titleGroup {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.title {
+  display: inline;
+  font-family: sans-serif,"Ping Fang TC";
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.titleEng {
+  font-family: sans-serif,"SF Pro Text";
+  color: #A00404;
+  font-size: 24px;
+  font-weight: 600;
+  vertical-align: top;
+  margin-left: 16px;
+}
+
+.hrStyle2 {
+  width: 100%;
+  border-top: 1px solid #000000;
+  position: absolute;
+}
+
+.text {
+  font-family: sans-serif,"Ping Fang TC";
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.eduList .text {
+  margin-bottom: 16px;
+}
+
+.item.skill, footer {
+  background-color: #415165;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.item.skill .container, footer .container {
+  max-width: 996px;
+}
+
+.item.skill .titleGroup, footer .titleGroup {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.item.skill .title, .item.skill .titleEng, .item.skill .text, footer .title, footer .titleEng, footer .text {
+  color: #ffffff;
+}
+
+.item.skill .hrStyle2, footer .hrStyle2 {
+  border-color: #ffffff;
+}
+
+.item.skill .skillList, footer .skillList {
+  margin: 0 auto;
+  border-left: 1px solid #ffffff;
+  padding-left: 24px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.item.skill .text, footer .text {
+  font-family: sans-serif,"SF Pro Text";
+  margin-bottom: 8px;
+}
+
+.item.skill .text.last, footer .text.last {
+  margin-bottom: 0;
+}
+
+.exp {
+  margin-bottom: 80px;
+}
+
+.expUnit {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.expList {
+  width: 60%;
+  border-left: 1px solid #000000;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+
+.expList .noMb {
+  margin-bottom: 0;
+}
+
+.expList .text {
+  font-size: 20px;
+}
+
+footer .titleGroup {
+  margin-bottom: 32px;
+}
+
+.contactList .text {
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contactList .text.web {
+  font-family: sans-serif,"Ping Fang TC";
+}
+
+.contactList a:hover {
+  text-shadow: 3px 3px #000000;
+  font-weight: bold;
+}
+
+.socialGroup {
+  margin: 0 auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.logo.middle {
+  margin: 0 24px;
+}
+/*# sourceMappingURL=index.css.map */
